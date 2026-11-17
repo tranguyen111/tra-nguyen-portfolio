@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trà Nguyễn — Visual Designer (2D/3D) & Creative Copywriter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <span class="brand-dot"></span>
+        <span>TRÀ NGUYỄN<span class="brand-sub">.STUDIO</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="#work">Case Studies</a>
+        <a href="#services">Năng lực</a>
+        <a href="#linkedin-kit" class="nav-pill">LinkedIn Copy Kit</a>
+        <a href="https://www.linkedin.com/in/tra-nguyen-aa2b06323/" target="_blank" rel="noopener" class="btn-outline">LinkedIn ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse"></span> Available for Freelance & Remote Projects
+          </div>
+          <h1>
+            Immersive <span class="gradient-text">2D/3D Visuals</span>.<br />
+            Compelling <span class="gradient-text-alt">Copywriting</span>.
+          </h1>
+          <p class="hero-desc">
+            Xin chào, mình là <strong>Trà Nguyễn</strong> — <em>Creative Specialist</em> kết hợp tư duy thị giác (3D CGI, 2D Branding) và ngôn từ chiến lược (Content Creation & Conversion Copywriting) giúp thương hiệu biến ý tưởng thành chiến dịch có sức hút và tỷ lệ chuyển đổi cao.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn-primary">Xem Portfolio Dự Án</a>
+            <a href="#linkedin-kit" class="btn-secondary">Mở LinkedIn Copy-Paste Kit</a>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric">
+              <span class="metric-val">+38%</span>
+              <span class="metric-lbl">CTR với 3D CGI Ads</span>
+            </div>
+            <div class="metric">
+              <span class="metric-val">-60%</span>
+              <span class="metric-lbl">Chi phí chụp Studio</span>
+            </div>
+            <div class="metric">
+              <span class="metric-val">250K+</span>
+              <span class="metric-lbl">Organic Reach / Campaign</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="showcase-stack">
+            <div class="stack-card stack-main">
+              <img src="assets/aura-3d.jpg" alt="AURA 3D Product Render" onerror="this.style.display='none'" />
+              <div class="stack-caption">
+                <span class="tag">3D CGI & Launch</span>
+                <strong>AURA Botanical Elixir</strong>
+              </div>
+            </div>
+            <div class="stack-card stack-float-1">
+              <span class="mini-label">Copywriting Formula</span>
+              <p>"Clean Energy for Restless Minds."</p>
+            </div>
+            <div class="stack-card stack-float-2">
+              <span class="mini-label">Tech Stack</span>
+              <div class="tool-pills">
+                <span>Blender</span>
+                <span>C4D</span>
+                <span>PS / AI</span>
+                <span>Figma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDIES -->
+    <section id="work" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Selected Case Studies</span>
+            <h2>Dự án tiêu biểu (2D · 3D · Content)</h2>
+          </div>
+          <div class="filter-tabs" role="tablist">
+            <button class="filter-btn active" data-filter="all">Tất cả (3)</button>
+            <button class="filter-btn" data-filter="3d">3D CGI</button>
+            <button class="filter-btn" data-filter="2d">2D Branding</button>
+            <button class="filter-btn" data-filter="copy">Copywriting & Content</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-tags="3d 2d copy" data-project="aura">
+            <div class="project-thumb">
+              <img src="assets/aura-3d.jpg" alt="AURA Botanical Elixir 3D Campaign" onerror="this.parentElement.classList.add('thumb-fallback-1')" />
+              <div class="project-badges">
+                <span>3D CGI</span>
+                <span>2D Social Kit</span>
+                <span>Copywriting</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-industry">F&B / FMCG Launch</span>
+              <h3>AURA Botanical Elixir — 3D Product Launch & Multi-Channel Campaign</h3>
+              <p>Mô hình hóa 3D siêu thực bằng Blender Cycles kết hợp bộ Social Launch Kit 2D và chiến dịch nội dung ra mắt thương hiệu.</p>
+              <div class="project-stats">
+                <span><strong>+38%</strong> CTR quảng cáo</span>
+                <span><strong>-60%</strong> chi phí sản xuất</span>
+              </div>
+              <button class="btn-card open-modal" data-project="aura">Xem chi tiết Case Study & Copy Mẫu →</button>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-tags="3d 2d copy" data-project="nova">
+            <div class="project-thumb">
+              <img src="assets/nova-3d.jpg" alt="NOVA True Wireless Earbuds Exploded 3D" onerror="this.parentElement.classList.add('thumb-fallback-2')" />
+              <div class="project-badges">
+                <span>3D Exploded View</span>
+                <span>UI/UX Assets</span>
+                <span>Sales Copy</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-industry">Consumer Tech / Audio</span>
+              <h3>NOVA True Wireless — High-Converting Landing Page & 3D Tech Visuals</h3>
+              <p>Dựng 3D bóc tách linh kiện (Exploded View) minh họa công nghệ ANC kết hợp bài viết Landing Page chuẩn mô hình PAS.</p>
+              <div class="project-stats">
+                <span><strong>4.2%</strong> Conversion Rate</span>
+                <span><strong>85K+</strong> tương tác tự nhiên</span>
+              </div>
+              <button class="btn-card open-modal" data-project="nova">Xem chi tiết Case Study & Copy Mẫu →</button>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-tags="3d 2d copy" data-project="cyber">
+            <div class="project-thumb">
+              <img src="assets/cyber-lotus.jpg" alt="CYBER-LOTUS Streetwear Campaign" onerror="this.parentElement.classList.add('thumb-fallback-3')" />
+              <div class="project-badges">
+                <span>2D Typography</span>
+                <span>3D Teaser</span>
+                <span>TikTok Script</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-industry">Streetwear / Lifestyle</span>
+              <h3>"CYBER-LOTUS" Collection — Digital Lookbook & Viral Content Strategy</h3>
+              <p>Key Visual phong cách Cyberpunk đương đại, video 3D Countdown Teaser và chuỗi kịch bản TikTok 30 ngày ra mắt.</p>
+              <div class="project-stats">
+                <span><strong>250K+</strong> Views sau 48h</span>
+                <span><strong>+12.5%</strong> Engagement Rate</span>
+              </div>
+              <button class="btn-card open-modal" data-project="cyber">Xem chi tiết Case Study & Copy Mẫu →</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Core Capabilities</span>
+            <h2>Giải pháp sáng tạo trọn gói</h2>
+          </div>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🧊</div>
+            <h3>Thiết kế 3D & CGI</h3>
+            <p>3D Product Rendering, Packaging Mockup, Exploded-view kỹ thuật và 3D Motion Teaser thay thế chụp studio đắt đỏ.</p>
+            <ul>
+              <li>Blender (Cycles / Eevee), Cinema 4D</li>
+              <li>Lighting, Shading & Condensation FX</li>
+              <li>3D Social Reels & Commercial Loops</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🎨</div>
+            <h3>Thiết kế 2D & Branding</h3>
+            <p>Hệ thống nhận diện thương hiệu, Key Visual chiến dịch, Social Media Kit và giao diện Landing Page tối ưu trải nghiệm.</p>
+            <ul>
+              <li>Adobe Photoshop, Illustrator, InDesign</li>
+              <li>Figma UI Visuals & Typography</li>
+              <li>POSM, Lookbook & Ad Banners</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">✍️</div>
+            <h3>Content Creator & Copywriting</h3>
+            <p>Từ chiến lược nội dung đa kênh, kịch bản video ngắn giữ chân người xem đến Sales Copy chuyển đổi cao.</p>
+            <ul>
+              <li>Kịch bản TikTok / Reels / Shorts</li>
+              <li>Landing Page Copy (PAS / AIDA)</li>
+              <li>PR Storytelling & Brand Voice</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LINKEDIN COPY-PASTE KIT -->
+    <section id="linkedin-kit" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">1-Click LinkedIn Builder</span>
+            <h2>Bộ nội dung chuẩn LinkedIn (Copy-Paste nhanh)</h2>
+          </div>
+        </div>
+        <div class="kit-grid" id="kit-container">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Trà Nguyễn — Creative Studio</strong>
+        <p>2D/3D Visual Designer · Content Creator · Creative Copywriter</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/tra-nguyen-aa2b06323/" target="_blank" rel="noopener">LinkedIn Profile</a>
+        <a href="#work">Case Studies</a>
+        <a href="#linkedin-kit">LinkedIn Kit</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CASE STUDY MODAL -->
+  <div class="modal-backdrop" id="case-modal" aria-hidden="true">
+    <div class="modal-dialog" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modal-close" aria-label="Đóng">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Đã copy vào clipboard!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
